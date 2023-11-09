@@ -1,0 +1,124 @@
+body
+{
+    margin: 0px;
+}
+
+/* inicio do site */
+
+.container_topo
+{
+    background-color: #117050;
+    height: 10px ;
+}
+
+.container_cabeçario
+{
+    max-width: 1140px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    height: 103px ;
+    margin: auto;
+}
+
+/* cabeçario left */
+
+.container_cabeçario_left img
+{
+    height: 64px ;
+    width: 64px ;
+}
+
+/* cabeçario right */
+
+.container_cabeçario_right
+{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.container_cabeçario_right_quadrantes form
+{
+    display: flex ;
+}
+
+.container_cabeçario_right_quadrantes form input
+{
+    font-size: 15px;
+    padding: 10px 9px ;
+    border: 1px solid #999;
+    height: 15px ;
+    max-width: 260px ;
+}
+
+button
+{
+    border: 0;
+    background-color: transparent;
+    margin-top: 3px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+button img
+{
+    width: 16px ;
+    height: 16px ;
+}
+
+.container_cabeçario_right_quadrantes_img 
+{
+    margin-left: 40px ;
+}
+
+.container_cabeçario_right_quadrantes_img img
+{
+    height: 24px ;
+    width: 24px ;
+}
+
+                          /* imagem so pra não deixar simples */
+
+.banner
+{
+    background-image: url(bg\ -\ Copia.jpg);
+    background-position: center ;
+    background-size: cover ;
+    padding: 350px 0px ;
+    flex-wrap: wrap ;
+}
+
+/* notebook */
+
+@media (max-width: 1140px ) and (min-width: 375px )
+{
+    .container
+    {
+        padding: 20px ;
+        padding-top: 0px ;
+    }
+
+    .container_cabeçario_right_quadrantes form input
+    {
+        width: 180px;
+    }
+}
+
+/* celular */
+
+@media (max-width:375px )
+{
+    .container_cabeçario_right_quadrantes form input
+    {
+        width: 115px ;
+    }
+
+    .container
+    {
+        padding: 20px ;
+        padding-top: 0px ;
+    }    
+    
+}
+
